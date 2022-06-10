@@ -1,0 +1,27 @@
+{
+  "name": "practice-jsdoc-type-checking",
+  "description": "Practice JSDoc Type Checking",
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js",
+    "lint": "eslint ./"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-jsdoc-type-checking#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-jsdoc-type-checking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-jsdoc-type-checking/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-plugin-jsdoc": "39.3.2"
+  }
+}

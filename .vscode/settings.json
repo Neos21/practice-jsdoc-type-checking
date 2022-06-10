@@ -1,0 +1,6 @@
+// ユーザ設定を上書きして優先させられないんだけど何で？
+{
+  "eslint.enable": true,
+  "eslint.quiet": false,
+  "js/ts.implicitProjectConfig.checkJs": true  // https://www.stefanjudis.com/today-i-learned/vs-code-supports-jsdoc-powered-type-checking/
+}
