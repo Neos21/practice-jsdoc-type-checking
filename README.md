@@ -26,11 +26,10 @@ JSDoc をちゃんと書けば TypeScript をイチイチインストールし�
       'jsdoc'
     ],
     rules: {
-      // 以下略
+      // `eslint-plugin-jsdoc` の各種ルールは `0` = 無効、`1` = 警告 (Warning)、`2` = エラー (Error) で指定する
     }
   };
   ```
-    - `eslint-plugin-jsdoc` の各種ルールは `0` = 無効、`1` = 警告 (Warning)、`2` = エラー (Error) で指定する
 5. エディタ上で下線が表示され、「問題」タブに表示されるようになる他、`$ npx eslint ./` で ESLint としても実行可能
 
 **FIXME** : VSCode のユーザ設定 (`settings.json`) で `eslint` 関連の設定をしている時、`.vscode/settings.json` で設定を上書きできない。そういう仕様なのか、自分の環境でのみ発生しているモノなのか不明。
